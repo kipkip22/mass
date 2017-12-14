@@ -58,7 +58,7 @@
 			$('#msjaqui').val('');
 			setTimeout(function(){
 				if(!final){
-					$('#chat').append('<p class="ella carga"><span class="imge" style="background-image:url(img/avatar/'+avtimg+'.jpg)!important"></span> <img src="img/esc.gif"></p>');
+					$('#chat').append('<p class="ella carga"><span class="imge" style="background-image:url(img/avatar/'+avtimg+'.jpg)!important"></span> <img src="https://image.ibb.co/mZH5AR/ddd.png"></p>');
 				}
 			},1500);
 			setTimeout(function() {
