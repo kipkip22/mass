@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+::selection{background:#c1daf3}
+::-moz-selection{background:#c1daf3}
+*,html,body{font-family:'Open Sans',sans-serif}
+html,body,h1,h2,h3,p{margin:0;padding:0}
+body{background:#e6e6e6;overflow-y:hidden}
+a{color:inherit;text-decoration:none}
+.cbi{clear:both!important}
+#chat,#perfil,#perfil .info.infofot a,.escribir input[type=text]{box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box}
+#chat p span.imge,#perfil .info #imginfo{background:url(img/avatar/avatar.jpg) no-repeat center;background-size:cover}
+#general{background:#fff;margin:0 auto;height:100vh;position:relative}
+#cab{background:#fff;border-bottom:solid 1px #e6e6e6;text-align:center;padding:5px 0;width:100%;position:fixed;top:0;left:0;z-index:99}
+#cab:before,.escribir:before{background:url(img/infocab.png) no-repeat right;background-size:contain;width:100%;height:22px;position:absolute;top:10px;right:10px;cursor:pointer;z-index:1;content:''}
+#cab h1,#perfil .info h1{font-weight:400}
+#perfil .info h2,#cab h2,#perfil .info h3{font-weight:300}
+#cab h1,#perfil .info h1{font-size:13px}
+#cab h2,#perfil .info h2,#perfil .info h3{font-size:11px;color:#9f9f9f}
+#chat{float:left;width:70%;height:calc(100vh - 79px);position:relative;margin-top:30px;padding:10px 10px 10px 10px;overflow:auto;}
+#chat h3{font-size:12px;font-weight:500;color:#9f9f9f;text-transform:uppercase;text-align:center;padding:12px 0;display:block}
+#chat p{background:#f1f0f0;border-radius:50px;font-size:13px;line-height:28px;min-height:28px;margin-bottom:2px;padding:0 10px;float:left;clear:both;position:relative}
+#chat p span.imge{border-radius:100%;width:28px;height:28px;float:left;position:absolute;left:-35px;content:''}
+#chat p:after,#perfil .info #imginfo:after{background:url(img/msjico.png) no-repeat center;background-size:cover;width:13px;height:13px;position:absolute;left:-18px;top:16px;z-index:1;content:''}
+#chat p.ella{margin-left:35px}
+#chat p.yo:before,#chat p.yo:after{display:none}
+#chat p.yo{background:#0084ff;color:#fff;float:right}
+#chat p.ella.carga img{max-width:26px;margin-top:-5px;padding:8px 0 10px;float:right}
+#chat .video{background:#000 url(img/videofondo.jpg) no-repeat center;background-size:contain;border-radius:20px;width:470px;height:265px;margin:0 -10px;float:left;overflow:hidden;position:relative}
+#chat .video:before{background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d0e11+0,0d0e11+100&0+0,0.65+100 */
+background: -moz-linear-gradient(top,  rgba(13,14,17,0) 0%, rgba(13,14,17,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(13,14,17,0) 0%,rgba(13,14,17,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(13,14,17,0) 0%,rgba(13,14,17,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000d0e11', endColorstr='#a60d0e11',GradientType=0 ); /* IE6-9 */
+;width:100%;height:35px;position:absolute;bottom:0;content:''}
+#chat .video:after{background:url(img/play.png) no-repeat center;width:100%;height:100%;position:absolute;content:'';z-index:0}
+#chat .video .duracion,#chat .video .linearep,#chat .video img{z-index:1}
+#chat .video img{opacity:.8}
+#chat .video img:hover{opacity:1}
+#chat .video img.btnsv,#chat .video img.btnp{position:absolute;bottom:16px;right:20px}
+#chat .video img.btnp{right:auto;left:14px}
+#chat .video .duracion{font-weight:bold;font-size:13px;color:#fff;text-shadow:0 0 3px rgba(20,22,26,.7);position:absolute;right:105px;bottom:12px}
+#chat .video .linearep{background:rgba(255,255,255,.5);box-shadow:0 1px 4px rgba(20,22,26,.3);border-radius:50px;width:auto;height:8px;position:absolute;left:37px;right:150px;bottom:21px}
+#chat .video .linearep:before{background:#fff;box-shadow:1px 1px 0 rgba(20,22,26,.3);border:solid 2px #fff;border-radius:100%;width:12px;height:12px;position:absolute;left:0;top:-4px;content:''}
+#chat .video .linearep:hover:before{transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);-webkit-transform:scale(1.1);-ms-transform:scale(1.1)}
+.escribir{background:#fff;border-top:solid 1px #e6e6e6;position:fixed;bottom:0;left:0;right:30%;z-index:9999}
+.escribir:before{background:url(img/btns.png) no-repeat right;height:25px;top:15px;z-index:-1}
+.escribir input[type=text]{border:none;font-size:13px;margin:0;padding:15px 10px;width:calc(100% - 247px);float:left;outline:none}
+#perfil{border-left:solid 1px #e5e5e5;width:30%;height:100vh;margin-top:44px;float:right}
+#perfil .info{border-bottom:solid 1px #e6e6e6;padding:15px 0 15px 10px}
+#perfil .info.infoava{padding:10px 0 25px 14px}
+#perfil .info h3{font-size:13px}
+#perfil .info #imginfo{border-radius:100%;width:50px;height:50px;margin-right:10px;float:left;position:relative}
+#perfil .info #imginfo:after{width:16px;height:16px;bottom:0;top:auto;right:0;left:auto}
+#perfil .info .txtinfo{padding-top:5px}
+#perfil .info a.linkface{font-size:13px;color:#2784ff;margin-top:12px;display:inline-block}
+#perfil .info a.linkface:hover{text-decoration:underline}
+#perfil .info.infofot h3{margin-bottom:12px}
+#perfil .info.infofot a{border:solid 1px #fff;width:calc(100%/3);height:105px;float:left}
+#perfil .info.infofot a img{width:100%;height:100%;object-fit:cover}
+.emj{margin:6px 0 0 5px;float:right}
+.fotos{display:block;padding-right:10px}
+@media all and (max-width: 768px){
+#cab{background:#f9f9f9;border-bottom-color:#aeaeae}
+#cab h2 span,#perfil,#chat .video img,#chat .video .linearep,#chat .video .duracion{display:none}
+#cab:before{right:-30px}
+#chat,.escribir input[type=text]{width:100%}
+.escribir{box-shadow:0 45px 0 5px #fff;-moz-box-shadow:0 45px 0 5px #fff;-o-box-shadow:0 45px 0 5px #fff;-webkit-box-shadow:0 45px 0 5px #fff;-ms-box-shadow:0 45px 0 5px #fff;right:0;bottom:40px}
+.escribir:before{background:#fff url(img/btnsm.png) no-repeat center;background-size:45%!important;padding:0;margin:0;left:0;top:50px}
+#chat p{line-height:33px}
+#chat p:before{width:33px;height:33px}
+#cab h1,#perfil .info h1,.escribir input[type=text]{font-size:14px}
+#chat .video{width:220px;height:145px}
+#chat .video:after{background-size:20%}
+#chat{height:calc(100vh - 120px)}
+}
+@media all and (max-width: 460px){
+.escribir:before{background-size:70%!important}
+}
+@media all and (max-width: 368px){
+.escribir:before{background-size:90%!important}
+}
