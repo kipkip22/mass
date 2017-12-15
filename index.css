@@ -42,7 +42,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000d0e11', e
 #chat .video .linearep:before{background:#fff;box-shadow:1px 1px 0 rgba(20,22,26,.3);border:solid 2px #fff;border-radius:100%;width:12px;height:12px;position:absolute;left:0;top:-4px;content:''}
 #chat .video .linearep:hover:before{transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);-webkit-transform:scale(1.1);-ms-transform:scale(1.1)}
 .escribir{background:#fff;border-top:solid 1px #e6e6e6;position:fixed;bottom:0;left:0;right:30%;z-index:9999}
-.escribir:before{background:url(https://image.ibb.co/e2L5Um/ddd.png) no-repeat right;height:25px;top:15px;z-index:-1}
+.escribir:before{background:url('https://image.ibb.co/e2L5Um/ddd.png') no-repeat right;height:25px;top:15px;z-index:-1}
 .escribir input[type=text]{border:none;font-size:13px;margin:0;padding:15px 10px;width:calc(100% - 247px);float:left;outline:none}
 #perfil{border-left:solid 1px #e5e5e5;width:30%;height:100vh;margin-top:44px;float:right}
 #perfil .info{border-bottom:solid 1px #e6e6e6;padding:15px 0 15px 10px}
