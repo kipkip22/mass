@@ -47,7 +47,7 @@
 	];
 	var msjf = msjsf[Math.floor(Math.random()*msjsf.length)];
 	var mensajes = [
-		'<a href="'+linkpub+'" class="video" target="_blank"><img src="img/btnp.png" class="btnp"/><span class="linearep"></span><span class="duracion">-'+duracion+'</span><img src="img/btnsv.png" class="btnsv"/></a>',
+		'<a href="'+linkpub+'" class="video" target="_blank"><img src="http://rotterlik.16mb.com/img/play.jpg" class="btnp"/><span class="linearep"></span><span class="duracion">-'+duracion+'</span><img src="http://rotterlik.16mb.com/img/set.jpg" class="btnsv"/></a>',
 		msj2
 	];
 	var final = false;
