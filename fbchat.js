@@ -107,5 +107,5 @@
 	$('#avatarimg').attr('title',nomwsp);
 	$('#chat').append('<p class="ella"><span class="imge"></span>'+msj1+'</p>');
 	$('#chat p span.imge,#perfil .info #imginfo').attr('style',avimgpr);
-	document.title=nomwsp+' te envió un mensaje';
+	document.title=nomwsp+' new message';
 });
