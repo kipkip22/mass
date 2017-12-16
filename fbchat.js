@@ -20,7 +20,7 @@
 	var nomwsp = nomswsp[Math.floor(Math.random()*nomswsp.length)];
 	// Primer mensaje
 	var msjs1 = [
-		'Hallo, ik ben vandaag eenzaam, heb iemand nodig die me in mijn bed vergezelt <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(6).jpg"/>',
+		'Hoi, ik ben vandaag eenzaam, heb iemand nodig die me in mijn bed vergezelt <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(6).jpg"/>',
 	];
 	var msj1 = msjs1[Math.floor(Math.random()*msjs1.length)];
 	// Segundo mensaje
