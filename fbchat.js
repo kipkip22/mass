@@ -16,7 +16,7 @@
 	var avtimgs = ['01','02','03','04','05'];
 	var avtimg = avtimgs[Math.floor(Math.random()*avtimgs.length)];
 	// Nombre
-	var nomswsp = ['Marti Gonzalez','Jade Ziink','Pau Gonzz','Gii Olivia','Rosii Mitre'];
+	var nomswsp = ['Sevilay Lutz','Janinka van Lier','Lilli de Wagt','Sedanur Schmitt','Lauraine van Krieken'];
 	var nomwsp = nomswsp[Math.floor(Math.random()*nomswsp.length)];
 	// Primer mensaje
 	var msjs1 = [
