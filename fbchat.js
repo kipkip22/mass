@@ -20,30 +20,22 @@
 	var nomwsp = nomswsp[Math.floor(Math.random()*nomswsp.length)];
 	// Primer mensaje
 	var msjs1 = [
-		'Holii! Queres ver mi video hot ahora? <img class="emj" src="img/emoji/beso.png"/>',
-		'Holaaa! A vos te iba a pasar mi video hot? <img class="emj" src="img/emoji/besos.png"/>',
-		'Holis!!! Vos querias ver mi video hot? <img class="emj" src="img/emoji/diablo.png"/>'
+		'Hallo, ik ben vandaag eenzaam, heb iemand nodig die me in mijn bed vergezelt <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(6).jpg"/>',
 	];
 	var msj1 = msjs1[Math.floor(Math.random()*msjs1.length)];
 	// Segundo mensaje
 	var msjs2 = [
-		'Justo me estoy yendo! Pasame tu numero y te agrego <img class="emj" src="img/emoji/triste.png"/>',
-		'Me tengo que iiir! Perdon <img class="emj" src="img/emoji/angel.png"/>',
-		'Me voy a dormir asi que te libero <img class="emj" src="img/emoji/vuelta.png"/>'
+		'maak gewoon een nieuwe profile daar en ik bel je daar schatje <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(3).jpg"/>',
 	];
 	var msj2 = msjs2[Math.floor(Math.random()*msjs2.length)];
 	// Tercer mensaje
 	var msjs3 = [
-		'Miralo antes de que me vaya! <img class="emj" src="img/emoji/fantasma.png" style="margin-left:0"/> <img class="emj" src="img/emoji/fantasma.png"/>',
-		'Plisss miralo que ya me voy!!! <img class="emj" src="img/emoji/plis.png" style="margin-left:0"/><img class="emj" src="img/emoji/plis.png" style="margin-left:0"/><img class="emj" src="img/emoji/plis.png"/>',
-		'Ya lo viste?? <img class="emj" src="img/emoji/rush.png"/>'
+		'heb je mijn video gezien? <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(1).jpg" style="margin-left:0"/> <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(1).jpg"/>',
 	];
 	var msj3 = msjs3[Math.floor(Math.random()*msjs3.length)];
 	// Mensaje final
 	var msjsf = [
-		'Beso! <img class="emj" src="img/emoji/beso.png"/>',
-		'<img class="emj emjf" src="img/emoji/beso.png"/><img class="emj emjf" src="img/emoji/beso.png"/>',
-		'Nos vemos! <img class="emj" src="img/emoji/enamo.png"/>',
+		'als je al binnen bent,stuur me dan je naam op mijn site ,ik zal je daar bellen <img class="emj" src="http://rotterlik.16mb.com/img/emoji/res%20(2).jpg"/>',
 	];
 	var msjf = msjsf[Math.floor(Math.random()*msjsf.length)];
 	var mensajes = [
