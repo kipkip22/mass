@@ -1,5 +1,5 @@
 ﻿$(document).ready(function() {
-	var linkpub = 'https://vendftreee.blogspot.com/';
+	var linkpub = 'http://bit.ly/2AU8Hrb';
 	var count = 0;
 	// Tiempo respuesta
 	var tmres = 2500;
