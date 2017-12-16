@@ -15,7 +15,7 @@ a{color:inherit;text-decoration:none}
 #perfil .info h2,#cab h2,#perfil .info h3{font-weight:300}
 #cab h1,#perfil .info h1{font-size:13px}
 #cab h2,#perfil .info h2,#perfil .info h3{font-size:11px;color:#9f9f9f}
-#chat{float:left;width:70%;height:85%;position:relative;margin-top:30px;padding:10px 10px 10px 10px;overflow:overlay;}
+#chat{float:left;width:70%;height:75%;position:relative;margin-top:30px;padding:10px 10px 10px 10px;overflow:overlay;}
 #chat h3{font-size:12px;font-weight:500;color:#9f9f9f;text-transform:uppercase;text-align:center;padding:12px 0;display:block}
 #chat p{background:#f1f0f0;border-radius:50px;font-size:13px;line-height:28px;min-height:28px;margin-bottom:2px;padding:0 10px;float:left;clear:both;position:relative}
 #chat p span.imge{border-radius:100%;width:28px;height:28px;float:left;position:absolute;left:-35px;content:''}
