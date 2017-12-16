@@ -50,7 +50,7 @@
 			$('#msjaqui').val('');
 			setTimeout(function(){
 				if(!final){
-					$('#chat').append('<p class="ella carga"><span class="imge" style="background-image:url('http://rotterlik.16mb.com/img/avatar/'+avtimg+'.jpg')!important"></span> <img src="http://rotterlik.16mb.com/img/esc.gif"></p>');
+					$('#chat').append('<p class="ella carga"><span class="imge" style="background-image:url(http://rotterlik.16mb.com/img/avatar/'+avtimg+'.jpg)!important"></span> <img src="http://rotterlik.16mb.com/img/esc.gif"></p>');
 				}
 			},1500);
 			setTimeout(function() {
@@ -64,7 +64,7 @@
 			$('#enviar').click();
 		}
 	});
-	var avimgpr = 'background-image:url('http://rotterlik.16mb.com/img/avatar/'+avtimg+'.jpg')!important';
+	var avimgpr = 'background-image:url(http://rotterlik.16mb.com/img/avatar/'+avtimg+'.jpg)!important';
 	function respuesta(mensaje) {
 		// Mensaje pegado
 		if (count == 0) {
