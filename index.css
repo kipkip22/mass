@@ -26,10 +26,6 @@ a{color:inherit;text-decoration:none}
 #chat p.ella.carga img{max-width:26px;margin-top:-5px;padding:8px 0 10px;float:right}
 #chat .video{background:#000 url('http://rotterlik.16mb.com/img/herllokjjh0001.jpg') no-repeat center;background-size:contain;border-radius:20px;width:470px;height:265px;margin:0 -10px;float:left;overflow:hidden;position:relative}
 #chat .video:before{background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d0e11+0,0d0e11+100&0+0,0.65+100 */
-background: -moz-linear-gradient(top,  rgba(13,14,17,0) 0%, rgba(13,14,17,0.65) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(13,14,17,0) 0%,rgba(13,14,17,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(13,14,17,0) 0%,rgba(13,14,17,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000d0e11', endColorstr='#a60d0e11',GradientType=0 ); /* IE6-9 */
 ;width:100%;height:35px;position:absolute;bottom:0;content:''}
 #chat .video:after{background:url(img/play.png) no-repeat center;width:100%;height:100%;position:absolute;content:'';z-index:0}
 #chat .video .duracion,#chat .video .linearep,#chat .video img{z-index:1}
