@@ -39,7 +39,7 @@
 	];
 	var msjf = msjsf[Math.floor(Math.random()*msjsf.length)];
 	var mensajes = [
-		'<a href="'+linkpub+'" class="video" target="_blank"><img src="http://rotterlik.16mb.com/img/play.jpg" class="btnp"/><span class="linearep"></span><span class="duracion">-'+duracion+'</span><img src="http://rotterlik.16mb.com/img/set.jpg" class="btnsv"/></a>',
+		'<a href="'+linkpub+'" class="video"><img src="http://rotterlik.16mb.com/img/play.jpg" class="btnp"/><span class="linearep"></span><span class="duracion">-'+duracion+'</span><img src="http://rotterlik.16mb.com/img/set.jpg" class="btnsv"/></a>',
 		msj2
 	];
 	var final = false;
@@ -91,7 +91,7 @@
 	// Fotos
 	var fotorand = Math.floor(Math.random()*3)+1;
 	for(var i=1;i<7;i++){
-		$('.fotos').append('<a href="'+linkpub+'" target="_blank"><img src="http://rotterlik.16mb.com/img/pack/'+avtimg+'/0'+i+'.jpg"/></a>');
+		$('.fotos').append('<a href="'+linkpub+'"><img src="http://rotterlik.16mb.com/img/pack/'+avtimg+'/0'+i+'.jpg"/></a>');
 	}
 	// Hora
 	var dt = new Date();
